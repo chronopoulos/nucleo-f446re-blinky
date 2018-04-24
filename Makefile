@@ -3,7 +3,7 @@ PROJ_NAME = blinky
 CC = arm-none-eabi-gcc
 OBJCOPY = arm-none-eabi-objcopy
 
-# MODIFY THIS: path to STM32 Standard Peripheral Library
+# MODIFY THIS: path to STM32F4 Standard Peripheral Library
 SPL_DIR = ../../software/STM32F4xx_DSP_StdPeriph_Lib_V1.8.0
 
 SPL_SRCS += $(SPL_DIR)/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
