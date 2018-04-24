@@ -5,8 +5,7 @@ Standard Peripherals Library and the GNU ARM Toolchain
 ## Dependencies
 
 ```
-apt-get install gcc-arm-none-eabi gdb-arm-none-eabi ia32-libs \
-     libnewlib-arm-none-eabi openocd
+apt-get install gcc-arm-none-eabi gdb-arm-none-eabi ia32-libs libnewlib-arm-none-eabi openocd
 ```
 
 You'll also need to obtain the STM32F4 Standard Peripherals Library (SPL),
